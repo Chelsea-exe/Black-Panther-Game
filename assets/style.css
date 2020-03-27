@@ -2,6 +2,9 @@
 body {
     background-color: black;
 }
+.bp-jumbotron {
+    background-color: rgb(174, 155, 196);
+}
 .bp {
     height: 65vh;
     margin: 100px 0 0 100px;
@@ -18,7 +21,7 @@ body {
     
 }
 .play {
-    background-color: rgb(188, 69, 243);
+    background-color: rgb(140, 36, 189);
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px #000000;
 }
@@ -43,12 +46,13 @@ p {
 .movement {
     margin-top: 20px;
 }
-#invisible,
-#visible,
-#shrink,
-#growth,
-#normal {
-    padding-right: 10px;
+.not-see,
+.visible,
+.shrink,
+.growth,
+.normal {
+    background-color: rgb(140, 36, 189);
+    border: rgb(140, 36, 189);
 }
 #second-right {
     margin-left: -10px;
@@ -56,12 +60,16 @@ p {
 #second-left {
     margin-left: -10px;
 }
-#second-down {
-    margin-left: -10px;
+/* #second-down {
+    margin-left: -2px;
     transform: rotate(45deg);
+    margin-top: -20px;
+} */
+#up,
+#down {
+    margin-left: 50px;
 }
-#first-down,
-#second-down {
-    transform: rotate(90deg);
-
+.speed {
+    background-color: rgb(238, 178, 14);
+    border-color: rgb(238, 178, 14);
 }
