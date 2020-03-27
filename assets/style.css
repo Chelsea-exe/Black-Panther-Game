@@ -9,3 +9,59 @@ body {
 .bp-soundtrack {
     height: 10vh;
 }
+#content-header {
+    font-family: 'Cinzel', serif;
+    font-size: 84px;
+}
+#subheader {
+    font-family: 'Cinzel', serif;
+    
+}
+.play {
+    background-color: rgb(188, 69, 243);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+.pause {
+    background-color: rgb(238, 178, 14);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* #play-icon,
+#pause-icon {
+    box-shadow: 2px 2px 5px #000000;
+    margin-right: 20px;
+} */
+h5 {
+    font-family: 'Cinzel', serif;
+
+}
+p {
+    font-family: 'Forum', cursive;
+}
+.superpowers,
+.movement {
+    margin-top: 20px;
+}
+#invisible,
+#visible,
+#shrink,
+#growth,
+#normal {
+    padding-right: 10px;
+}
+#second-right {
+    margin-left: -10px;
+}
+#second-left {
+    margin-left: -10px;
+}
+#second-down {
+    margin-left: -10px;
+    transform: rotate(45deg);
+}
+#first-down,
+#second-down {
+    transform: rotate(90deg);
+
+}
