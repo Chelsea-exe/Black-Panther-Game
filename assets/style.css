@@ -5,12 +5,19 @@ body {
 .bp-jumbotron {
     background-color: rgb(174, 155, 196);
 }
+button {
+    font-family: 'Forum', cursive;
+}
 .bp {
     height: 65vh;
     margin: 100px 0 0 100px;
 }
 .bp-soundtrack {
     height: 10vh;
+    cursor: pointer;
+}
+.bp-soundtrack:hover {
+    color: rgb(174, 155, 196);
 }
 #content-header {
     font-family: 'Cinzel', serif;
@@ -65,11 +72,17 @@ p {
     transform: rotate(45deg);
     margin-top: -20px;
 } */
-#up,
-#down {
-    margin-left: 50px;
-}
 .speed {
     background-color: rgb(238, 178, 14);
     border-color: rgb(238, 178, 14);
+}
+#control-center {
+    margin-left: 180px;
+}
+#left-btn {
+    margin-right: 42px;
+    margin-left: -60px;
+}
+#right-btn {
+    margin-left: 20px;
 }

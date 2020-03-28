@@ -27,13 +27,41 @@ $(document).ready(function() {
         blackPantherImage.animate({ height: "115vh" });
         console.log("growth button was pressed");
     });
-    $(".normal").click(function(){
+    $(".normal").click(function() {
         blackPantherImage.animate({ height: "65vh" });
         console.log("normal button was pressed");
     });
-    $(".left").on("click", function(){
-        blackPantherImage.animate({ left: "-=200px" }, "normal")
+    $("#left-btn").on("click", function() {
+        blackPantherImage.animate({ left: "-=200px" }, "fast");
         console.log("left button was pressed!");
-    })
+        // alert("black panther moved");
+    });
+
+
+    $("#right-btn").click(function() {
+        blackPantherImage.animate({ left: "+=200px" }, "fast");
+        console.log("right button was pressed");
+    });
+    $("#up-btn").click(function() {
+        blackPantherImage.animate({ top: "-=200px" }, "fast");
+        console.log("up button was pressed");
+    });
+    $("#down-btn").click(function() {
+        blackPantherImage.animate({ top: "+=200px" }, "fast");
+        console.log("down bottom was pressed");
+    });
+
+    $(".bp-soundtrack").click(function() {
+        window.open("https://music.apple.com/us/album/black-panther-the-album-music-from-and-inspired-by/1440906927");
+        console.log("Black Panther soundtrack link was used");
+    });
+    $("#bp-comic").click(function() {
+        window.open("https://www.marvel.com/comics/characters/1009187/black_panther");
+        console.log("Black Panther Comics");
+    });
+    $("#bp-movie").click(function() {
+        window.open("https://www.marvel.com/movies/black-panther");
+        console.log("Black Panther Movie");
+    });
 
 })
