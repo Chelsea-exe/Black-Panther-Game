@@ -31,12 +31,14 @@ $(document).ready(function() {
         blackPantherImage.animate({ height: "65vh" });
         console.log("normal button was pressed");
     });
+
+    //the script for the amazing speed buttons aren't connecting even
+    //with the console.log displaying the button was pressed.
     $("#left-btn").on("click", function() {
         blackPantherImage.animate({ left: "-=300px" }, "fast");
         console.log("left button was pressed!");
         // alert("black panther moved");
     });
-
 
     $("#right-btn").click(function() {
         blackPantherImage.animate({ left: "+=300px" }, "fast");
