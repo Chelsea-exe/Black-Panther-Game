@@ -32,22 +32,22 @@ $(document).ready(function() {
         console.log("normal button was pressed");
     });
     $("#left-btn").on("click", function() {
-        blackPantherImage.animate({ left: "-=200px" }, "fast");
+        blackPantherImage.animate({ left: "-=300px" }, "fast");
         console.log("left button was pressed!");
         // alert("black panther moved");
     });
 
 
     $("#right-btn").click(function() {
-        blackPantherImage.animate({ left: "+=200px" }, "fast");
+        blackPantherImage.animate({ left: "+=300px" }, "fast");
         console.log("right button was pressed");
     });
     $("#up-btn").click(function() {
-        blackPantherImage.animate({ top: "-=200px" }, "fast");
+        blackPantherImage.animate({ top: "-=300px" }, "fast");
         console.log("up button was pressed");
     });
     $("#down-btn").click(function() {
-        blackPantherImage.animate({ top: "+=200px" }, "fast");
+        blackPantherImage.animate({ top: "+=300px" }, "fast");
         console.log("down bottom was pressed");
     });
 
